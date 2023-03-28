@@ -19,3 +19,7 @@ nodemon app.js // 热更新
 ## 生成包
 
 > xxx
+
+## 项目文档
+
+http://escook.cn:8088/#/mds/1.init
