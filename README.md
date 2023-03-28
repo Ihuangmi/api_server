@@ -7,11 +7,13 @@
 ## 命令
 
 ```
+# 安装包
+npm install
+
 # 本地开发
 node app.js
 or
-nodemon app.js
-
+nodemon app.js // 热更新
 ```
 
 ## 生成包
