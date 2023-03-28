@@ -47,10 +47,10 @@ app.use((err, req, res, next) => {
   if (err instanceof joi.ValidationError) return res.cc(err);
 
   // 身份认证失败
-  if (err.name === "UUnauthorizedErrorn") return res.cc(err);
+  if (err.name === "UnauthorizedError") return res.send(err);
 
   // 其他错误
-  res.cc(err);
+  res.send(err);
 });
 
 app.listen(3007, () => {
